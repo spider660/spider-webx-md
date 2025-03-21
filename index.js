@@ -705,7 +705,7 @@ await client.groupAcceptInvite("DefN96lXQ4i5iO1wDDeu2C");
       console.log(color("Congrats, Vortex AI has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as sinless-johnny-official", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱😳 » » »【𝙋𝙀𝙍𝙀𝙕-𝙈𝘿】` });
+      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱😳 » » »【𝐬𝐩𝐢𝐝𝐞𝐫-𝐦𝐝】` });
     }
     // console.log('Connected...', update)
   });
