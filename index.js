@@ -1,10 +1,23 @@
+const express = require('express');
+const app = express();
+
+// Use process.env.PORT or default to 3000 in development
+const PORT = process.env.PORT || 3000; // Render sets process.env.PORT automatically
+
+app.get("/", (req, res) => {
+  res.send("Bot Pairing API is working!");
+});
+
+app.listen(PORT, () => {
+  console.log(Server is running on port ${PORT});
+});
 const sessionName = 'session';
 const antiforeign = process.env.ANTIFOREIGN || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
 const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 let botname = process.env.BOTNAME || '𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃';
 
-const owner = process.env.DEV || '254718303684'; // This will send a notification once the bot reconnects
+const owner = process.env.PORT || '254718303684'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
@@ -212,7 +225,7 @@ await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '😳
       
       m = smsg(client, mek, store);
       
-  const Perez = require("./𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃.js");
+  const spider = require("./𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃.js");
 Perez(client, m, chatUpdate, store);
 
       } catch (err) {
@@ -702,7 +715,7 @@ function _0x2f66() {
       
 await client.groupAcceptInvite("DefN96lXQ4i5iO1wDDeu2C");
       
-      console.log(color("Congrats, Vortex AI has successfully connected to this server", "green"));
+      console.log(color("Congrats, spider Ai has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as sinless-johnny-official", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
       client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱😳 » » »【𝐬𝐩𝐢𝐝𝐞𝐫-𝐦𝐝】` });
