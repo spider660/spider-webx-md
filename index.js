@@ -1,16 +1,3 @@
-const express = require('express');
-const app = express();
-
-// Use process.env.PORT or default to 3000 in development
-const PORT = process.env.PORT || 3000; // Render sets process.env.PORT automatically
-
-app.get("/", (req, res) => {
-  res.send("Bot Pairing API is working!");
-});
-
-app.listen(PORT, () => {
-  console.log(Server is running on port ${PORT});
-});
 const sessionName = 'session';
 const antiforeign = process.env.ANTIFOREIGN || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
