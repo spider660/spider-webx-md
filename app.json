@@ -1,6 +1,6 @@
 {
   "name": "SPIDER-BOT",
-  "description": "SPIDEY the underated goat",
+  "description": "SPIDEY the underated goat.spider-md a super bot enjoy guyz",
   "keywords": [
     "bot",
     "whatsapp",
@@ -20,7 +20,7 @@
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of spider-md Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of SPIDER-MD Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "required": false
 
     },
