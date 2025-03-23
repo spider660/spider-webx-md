@@ -1,6 +1,6 @@
 {
-  "name": "𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃",
-  "description": "never underate the king'spider'",
+  "name": "RAVEN-BOT",
+  "description": "𝐍𝐢𝐜𝐤_𝐇𝐮𝐧𝐭𝐞𝐫 Bad influencer",
   "keywords": [
     "bot",
     "whatsapp",
@@ -14,32 +14,36 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/spider660/spider-md#readme",
-  "repository": "https://github.com/spider660/spider-md",
-  "logo": "https://i.imgur.com/Uf3hdzW.jpeg",
+  "website": "https://github.com/HunterNick2/RAVEN-BOT#readme",
+  "repository": "https://github.com/HunterNick2/RAVEN-BOT.git",
+  "logo": "https://telegra.ph/file/eebe191a0520a79979b34.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of 𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃 Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of RAVEN MD Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "required": false
-    
+
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254718303684,27748379216  ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114660061,27849061633  ",
       "required": true
     },
     "NOT_OWNER_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
-      "required": true
+      "required": false
     },
     
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
-      "required": true
+      "required": false
     },
     "ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Only admins are allowed to use this command",
+      "required": false
+    },
+    "HEROKU_API": {
+      "description": "Put a Heroku api key here, will be required to update vars in your Dm",
       "required": true
     },
     "BAD_WORD": {
@@ -52,7 +56,7 @@
     },
     "GROUP_ONLY_MSG": {
       "description": "Put a message that the bot will send if a parameter that works in group chats only is violated. Example: This command will work in groups only",
-      "required": true
+      "required": false
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
@@ -113,8 +117,8 @@
     
     
     },
-    "AI": {
-      "description": "Put your OpenAI API key here. This will allow AI features to work correctly. This key starts with sk-",
+    "AUTOLIKE_STATUS": {
+      "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
       "required": false
     }
   },
@@ -130,3 +134,4 @@
     }
   ]
     }
+
