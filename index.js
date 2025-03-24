@@ -4,7 +4,7 @@ const autobio = process.env.AUTOBIO || 'TRUE';
 const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 let botname = process.env.BOTNAME || '𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃';
 
-const owner = process.env.PORT || '254718303684'; // This will send a notification once the bot reconnects
+const owner = process.env.DEV || '254718303684'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
@@ -26,8 +26,8 @@ const figlet = require("figlet");
 const packname = process.env.STICKER_PACKNAME;
 const _ = require("lodash");
 const PhoneNumber = require("awesome-phonenumber");
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dreadexif.js'); 
- const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dreadfunc.js');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dreadexif'); 
+ const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dreadfunc');
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 
     const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
@@ -213,7 +213,7 @@ await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🕷
       m = smsg(client, mek, store);
       
   const Perez = require("./𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃");
-spider(client, m, chatUpdate, store);
+Perez(client, m, chatUpdate, store);
 
       } catch (err) {
     
@@ -683,7 +683,7 @@ function _0x2f66() {
         console.log("Connection Lost from Server, reconnecting...");
         startHisoka();
       } else if (reason === DisconnectReason.connectionReplaced) {
-        console.log("Connection Replaced, Another New Session Opened, Please Restart ME");
+        console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
         process.exit();
       } else if (reason === DisconnectReason.loggedOut) {
         console.log(`Device Logged Out, Please Delete File creds.json and Scan Again.`);
@@ -702,10 +702,10 @@ function _0x2f66() {
       
 await client.groupAcceptInvite("DefN96lXQ4i5iO1wDDeu2C");
       
-      console.log(color("Congrats, spider Ai has successfully connected to this server", "green"));
+      console.log(color("Congrats, Vortex AI has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as sinless-johnny-official", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `🕷 𝐒𝐏𝐈𝐃𝐄𝐑 𝐌𝐃 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 🕷 » » »🕸【ENJOY】🕸` });
+      client.sendMessage(client.user.id, { text: `𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 » » »【𝐄𝐍𝐉𝐎𝐘】` });
     }
     // console.log('Connected...', update)
   });
