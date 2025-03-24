@@ -362,7 +362,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
         case "menu":
 		      await mp3d ()
 		      
-let cap = `HI 😁🌄, ${getGreeting()}\n\n╭═════〘🕷𝕤𝕡𝕚𝕕𝕖𝕣-𝕞𝕕🕷〙═════╮
+let cap = `Hey 😁🌄, ${getGreeting()}\n\n╭═════〘🕷𝕤𝕡𝕚𝕕𝕖𝕣-𝕞𝕕🕷〙═════╮
 ┃✫╭═───────────────═╮
 ┃🕸│NO : 0718303684
 ┃🕸│owner : 🆂🅿🅸🅳🅴🆈
@@ -558,7 +558,7 @@ let cap = `HI 😁🌄, ${getGreeting()}\n\n╭═════〘🕷𝕤𝕡�
 ┃🕸│ 𝗜𝗺𝗮𝗴𝗲
 ┃🕸│ 𝗦𝘆𝘀𝘁𝗲𝗺
 ┃🕸╰═───────◇───────═╯
-┃   🕷nobody does it like me🕷 !
+┃   🕷𝐌𝐀𝐃𝐄 𝐎𝐍 𝐄𝐀𝐑𝐓𝐇 𝐁𝐘 𝐒𝐏𝐈𝐃𝐄𝐘🕷 !
 ╰══༄༄༄༄༄༄༄༄༄༄༄༄༄╯`;
 
 if (menu === 'VIDEO') {
@@ -574,7 +574,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Uf3hdzW.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/32zvqb.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -583,7 +583,7 @@ client.sendMessage(m.chat, {
                                 showAdAttribution: true,
                                 title: `𝕤𝕡𝕚𝕕𝕖𝕣-𝕞𝕕`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./ℙ𝔼ℝ𝔼ℤ-𝕄𝔻.jpg'),
+                                thumbnail: fs.readFileSync('./𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃.jpg'),
                                 sourceUrl: 'https://wa.me/254718303684?text=Hello👋+spidey+Nihostie+Bot+Mkuu+😔',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -605,7 +605,7 @@ console.log(advice());
 break;
 		      case "credits": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Uf3hdzW.jpeg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/HunterNick2\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/32zvqb.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/HunterNick2\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃`}); 
  break;
 	  case 'poll': {
 		  let [poll, opt] = text.split("|")
