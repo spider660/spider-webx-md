@@ -212,7 +212,7 @@ await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🕷
       
       m = smsg(client, mek, store);
       
-  const Perez = require("./𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃");
+  const Perez = require("./𝙋𝙀𝙍𝙀𝙕-𝙈𝘿");
 Perez(client, m, chatUpdate, store);
 
       } catch (err) {
@@ -704,8 +704,8 @@ await client.groupAcceptInvite("DefN96lXQ4i5iO1wDDeu2C");
       
       console.log(color("Congrats, Vortex AI has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as sinless-johnny-official", "red"));
-      console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 » » »【𝐄𝐍𝐉𝐎𝐘】` });
+      console.log(color("Text the bot number with xmenu to check my command list"));
+      client.sendMessage(client.user.id, { text: `𝐒𝐏𝐈𝐃𝐄𝐑-𝐌𝐃 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 » » »【𝐄𝐍𝐉𝐎𝐘】` });
     }
     // console.log('Connected...', update)
   });
