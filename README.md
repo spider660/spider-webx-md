@@ -3,18 +3,19 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=WELCOME TO+SPIDER-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+SPIDER;PUBLIC+RELEASED; ...;TEAM WEBX." alt="Typing SVG" /></a>
   </p>
 
-<div align="center">
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
 
 <p align="center">                                                    ŞƤƗĐ€Ř-ΜĐ
 
+<p align="center">  
+    <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>  
+  </p>  
+
+![Rerechan02 card name](https://cardivo.vercel.app/api?name=SPIDER-MD『𝐖𝐞𝐛𝐱』&description=Hi,%20everyone!%20and%20%20spidey%20here%20y%20%F0%9F%91%8B&image=https://files.catbox.moe/32zvqb.jpg?v=4&backgroundColor=%23ecf0f1&telegram=/&github=Spider&pattern=leaf&colorPattern=%23eaeaea)
 
 </p>
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m">
-    <img alt=Support height="390" src="https://media.giphy.com/media/A9BPNdWYbGFoK5oFKA/giphy.gif?cid=ecf05e476o40r0k5bfil7ph31stkxjoigk0vutxcbrdljwfz&ep=v1_gifs_search&rid=giphy.gif&ct=g"> 
+    <img alt=Support height="390" src="?cid=ecf05e476o40r0k5bfil7ph31stkxjoigk0vutxcbrdljwfz&ep=v1_gifs_search&rid=giphy.gif&ct=g"> 
     </p>
  
  
