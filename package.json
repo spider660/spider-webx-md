@@ -1,5 +1,5 @@
 { 
-   "name": "VORTEX-AI", 
+   "name": "SPIDER ART'S", 
    "version": "2.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
@@ -19,7 +19,7 @@
      "whatsapp-multi-device" 
    ], 
    "base": "https://github.com/DikaArdnt/Hisoka-Morou", 
-   "author": "Johnn65", 
+   "author": "spider webx", 
    "license": "MIT", 
    "dependencies": { 
         "@whiskeysockets/baileys": "^6.7.9",
@@ -35,20 +35,23 @@
      "chalk": "^4.1.2", 
          "child-process": "^1.0.2", 
      "os": "^0.1.2",
-      "luxon": "^3.5.0",
       "file-type": "^16.5.3",
      "genius-lyrics": "^4.4.3",
       "google-tts-api": "^2.0.2",
       "tempmail.lol": "^4.1.0",
      "crypto": "^1.0.1",
       "imgur": "2.3.0",
+      "chatgpt-scraper":"^1.0.1",
+      "g-i-s": "^2.1.7",
      "figlet": "^1.5.2", 
      "fs": "0.0.1-security", 
-         "stream": "^0.0.2", 
+         "stream": "^0.0.2",
+        "api-dylux" : "^1.8.5",
          "fluent-ffmpeg": "^2.1.2", 
          "node-webpmux": "^3.1.5", 
          "path": "^0.12.7", 
-     "libsignal": "2.0.1", 
+     "libsignal": "2.0.1",
+      "luxon":"^3.4.4",
 
     "compile-run": "^2.3.4", 
       "node-fetch-commonjs": "^3.3.2",
@@ -67,6 +70,8 @@
      "openai": "^3.1.0",
       "g4f":"^1.1.0",
    "acrcloud": "^1.4.0",
+    "mumaker": "^2.0.0",
+    "ruhend-scraper": "^8.0.3",
      "ytdl-secktor": "^0.0.1-development", 
  "ytdl-core": "npm:@distube/ytdl-core", 
    "yt-search": "^2.12.1", 
@@ -82,10 +87,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/Johnn65/VORTEX-MD.git" 
+     "url": "https://github.com/spider660/spider-webx-md.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/Johnn65/VORTEX-MD/issues" 
+     "url": "https://github.com/spider660/spider-webx-md/issues" 
    }, 
-   "homepage": "https://github.com/Johnn65/VORTEX-MD#readme" 
+   "homepage": "https://github.com/spider660/spider-webx-md#readme" 
    }
